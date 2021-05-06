@@ -2,12 +2,12 @@ package org.school.app.repository;
 
 import java.util.List;
 import java.util.Optional;
-import org.school.app.model.Student;
+import org.school.app.model.Schoolboy;
 
 public interface RepositoryStudent {
 
-  List<Student> getAll();
+  List<Schoolboy> getAll();
 
-  Optional<Student> getStudentById(int id);
+  Optional<Schoolboy> getStudentById(int id);
 
 }
